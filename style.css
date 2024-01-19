@@ -1,0 +1,97 @@
+body{
+    background-color: #dbe0e6;
+    overflow: scroll;
+}
+
+.container{
+    height: 72vh;
+    width: 30%;
+    margin: 0% auto;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-family: sans-serif;
+    background-color: #fff;
+    border-radius: 7px;
+}
+img{
+  height: 100px;
+  margin-left: 650px;
+}
+.v{
+    padding: 11px;
+    width: 190px;
+}
+.b{
+    padding: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 92%;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+.name{
+    font-size: 30px;
+    text-align: center;
+    color: #1c1e21;
+    font-weight: bold;
+    
+}
+.name2{
+    text-align: center;
+    font-size: 14px;
+    color: #606770;
+}
+.data{
+    margin: 12px;
+}
+select{
+    /* padding: 0px 20px 0px 8px; */
+    width: 142px;
+    height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.date{
+    font-size: 13px;
+    margin-bottom: 5px;
+
+}
+label{
+    border: 1px solid black;
+    width: 134px;
+    height: 21px;
+    display: inline-block;
+    padding: 4px;
+    font-weight: bold;
+}
+.gender{
+    margin-top: 11px;
+    margin-bottom: 5px;
+    font-size: 14PX;
+}
+button{
+    height: 35px;
+    width: 175px;
+    text-align: center;
+    margin-left: 140px;
+    background-color: green;
+    border: 1 solid green;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 21px;
+    font-weight:bold ;
+    margin-top: 15px;
+    padding-top: 0px;
+}
+p{
+    font-size: 12px;
+}
+h6{
+    margin-left: 140px;
+    font-size: 15px;
+    color:rgb(40, 55, 165);
+    margin-top: 14px;
+}
